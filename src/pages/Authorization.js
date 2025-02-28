@@ -30,9 +30,9 @@ const Authorization = () => {
     axios
       .get(`${apiUrl}/api/auth/authorize`)
       .then((response) => {
-        // window.location.href = response?.data?.redirect_url;
         console.log(response?.data?.redirect_url);
-        window.open(response?.data?.redirect_url, '_blank');  
+        window.location.href = response?.data?.redirect_url;
+        // window.open(response?.data?.redirect_url, '_blank');  
       })
       .catch((error) => {
         setNotification(`Error: ${error?.message || "Unknown error occurred"}`);

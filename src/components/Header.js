@@ -18,13 +18,13 @@ const Header = () => {
         <span className="text-semibold text-blue-300">{currentDate}</span> */}
       </div>
       <div className="flex flex-wrap mr-16">
-        <h1 className="text-xl text-white">Follow Up Email Controller</h1>
+        <h1 className="text-xl text-white">Chalar Call Controller</h1>
       </div>
-      <div className="left-0 flex items-center space-x-4">
+      {/* <div className="left-0 flex items-center space-x-4">
         <button className=" bg-[#FF7959] text-white py-2 px-3 font-bold border-white rounded-sm hover:bg-[#fc9379] min-w-[20%] ">
           Send and Schedule
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

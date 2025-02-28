@@ -15,12 +15,12 @@ const Guide = () => {
 
         <h3 className="text-xl font-semibold mb-2">Step 2: Send Emails to Non-Openers</h3>
         <p className="mb-4">
-          After authorization, go to the success page where you can fill in the details of your email campaign. Enter the email campaign ID and the new subject for the follow-up email, then click "Send to Non-Openers".
+        After authorization, go to the call list page where you can manage and monitor your calls. Select a call to transcribe, and receive updates on the transcription status. Once transcribed, review the text and provide feedback
         </p>
 
         <h3 className="text-xl font-semibold mb-2">Step 3: Monitor the Results</h3>
         <p className="mb-4">
-          Check your HubSpot account to monitor the results of the follow-up emails sent to non-openers.
+          Check your HubSpot account to monitor the results of the calls.
         </p>
 
         <div className="mt-8">

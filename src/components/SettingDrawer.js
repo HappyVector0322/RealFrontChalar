@@ -82,7 +82,7 @@ export default function SettingDrawer() {
           </div>
           <p>330302303</p>
         </div>
-        <div className="py-2">
+        {/* <div className="py-2">
           <FormControl sx={{ width: "100%" }} variant="outlined">
             <h2 className=" font-bold text-xl mt-6 mb-3 text-[#3a536d]">
               Subject Line
@@ -99,8 +99,8 @@ export default function SettingDrawer() {
               onChange={handleSubjectLine}
             />
           </FormControl>
-        </div>
-        <div className="flex flex-wrap items-center my-5">
+        </div> */}
+        {/* <div className="flex flex-wrap items-center my-5">
           <span className="text-md text-[#30445a] font-semibold mt-4">
             Resend after{" "}
           </span>
@@ -115,7 +115,7 @@ export default function SettingDrawer() {
             {" "}
             hours
           </span>
-        </div>
+        </div> */}
       </List>
       <Divider />
       <List>
@@ -125,7 +125,7 @@ export default function SettingDrawer() {
             // onClick={toggleDrawer(false)}
             onClick={setSchedule}
           >
-            Set the Schedule
+            Call
           </button>
         </div>
       </List>

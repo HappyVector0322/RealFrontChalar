@@ -7,7 +7,7 @@ const ConnectHubspot = () => {
     <div className="flex-1 flex items-center justify-center bg-gray-100">
       <div>
         <h1 className="text-6xl font-bold">
-          Welcome to Hubspot Follow Up Email Controller
+          Welcome to Hubspot Follow Up Chalar Call Controller
         </h1>
       </div>
       <div>

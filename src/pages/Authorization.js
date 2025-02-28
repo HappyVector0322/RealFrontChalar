@@ -30,7 +30,9 @@ const Authorization = () => {
     axios
       .get(`${apiUrl}/api/auth/authorize`)
       .then((response) => {
-        window.location.href = response?.data?.redirect_url;
+        // window.location.href = response?.data?.redirect_url;
+        console.log(response?.data?.redirect_url);
+        window.open(response?.data?.redirect_url, '_blank');  
       })
       .catch((error) => {
         setNotification(`Error: ${error?.message || "Unknown error occurred"}`);
@@ -41,7 +43,7 @@ const Authorization = () => {
     <div className="flex-1 flex items-center justify-center bg-gray-100">
       <div className="flex justify-center h-full items-center px-12">
         <h1 className="text-6xl font-bold leading-snug">
-          Welcome to Hubspot Follow Up Email Controller
+        Welcome to Hubspot Follow Up Chalar Call Controller
         </h1>
       </div>
       <div className="flex flex-col justify-center h-full bg-[#FF7959] min-w-[30%] items-center border-2 border-white rounded-md">

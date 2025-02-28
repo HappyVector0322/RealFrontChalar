@@ -31,6 +31,7 @@ const Authorization = () => {
     axios
       .get(`${apiUrl}/api/auth/authorize`)
       .then((response) => {
+        console.log(response);
         console.log(response?.data?.redirect_url);
         window.location.href = response?.data?.redirect_url;
         // window.open(response?.data?.redirect_url, '_blank');  

@@ -26,6 +26,7 @@ const Authorization = () => {
 
   const apiUrl = process.env.REACT_APP_API_URL;
 
+  console.log(apiUrl);
   const handleAuthorize = () => {
     axios
       .get(`${apiUrl}/api/auth/authorize`)
